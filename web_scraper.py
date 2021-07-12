@@ -6,14 +6,14 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 
-CHROME_DRIVER_PATH = "C:/Users/Erik/Downloads/chromedriver_win32/chromedriver"
+CHROME_DRIVER_PATH = "C:/Users/MIKEEEG/Downloads/chromedriver_win32/chromedriver"
 
 
 def scrape_data(pages=10, sleepTime=10, dump=False):
     print('SCRAPING DATA')
-    print('You should see an incognito Chrome window appear.')
-    print('Click on and focus that window while the scraping process is running.')
-    print('Please do not do anything else your computer until the scrape is complete.')
+    print('You should see an incognito Chrome window on your screen.')
+    print('Make sure that window is focused while the scraping process is running.')
+    print('Please do not do anything else your computer until the scrape is finished.')
     print('It also helps to fullscreen the window as it loads more cards.')
 
     options = webdriver.ChromeOptions()
